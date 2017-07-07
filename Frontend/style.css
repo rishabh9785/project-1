@@ -1,0 +1,123 @@
+
+.header{
+    background-color:#4db6ac;
+    text-align: center;
+}
+.img-logo{
+    height:65px;
+}
+#navigation li a
+{
+    color: black;
+    opacity: 1;
+    margin-top: 4%;
+}
+#navigation li a:hover
+{
+    /*background-color: #82B541;*/
+    color: black;
+    border-bottom: 5px solid forestgreen;
+    transition: all 0.4s ease-in-out;
+    opacity: 1.0;
+    font-weight: 900;
+    z-index: 999;
+}
+#navigation li a:active
+{
+    background-color: #ffffff;
+    color: #000;
+}
+.brand-name{
+    float: right;
+    margin-top:9px;
+}
+.logo-nav
+{
+    float: left;
+}
+.nav-info
+{
+    float: right;
+}
+#navigation li a:active
+{
+    background-color: #ffffff;
+    color: #000;
+}
+.sub-heading-2{
+    text-align: center;
+    /*margin-right: 30%;*/
+    /*margin-left:30%;*/
+    margin-top:0px;
+}
+.societies24{
+    /*position:absolute;*/
+    margin-top:450px;
+    background-color: lightgrey;
+    margin-bottom:500px;
+}
+.technical{
+    position:relative;
+    height:150px;
+    text-align: center;
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity:0.85;
+    padding-top: 20px;
+
+}
+
+.cultural{
+    position:relative;
+    text-align: center;
+    height:150px;
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity:0.85;
+    padding-top: 20px;
+}
+.content-tech{
+    height: 33px;
+    margin-top: 90px;
+    font-family: 'Ubuntu', 'Arvo', 'Open Sans', serif;
+}
+h2 a{
+    color:whitesmoke;
+    transition-delay: 15s;
+}
+.tech_img{
+    position:absolute;
+    width:100%;
+    height:auto;
+    /*margin-left: 0px;*/
+    /*left: 0px;*/
+    /*bottom: 0px;*/
+    /*top: 0px;*/
+}
+.tech_img0{
+    position:relative;
+    width:100px;
+    height:110px;
+    bottom:545px;
+    left:290px;
+}
+
+
+#footer p,#footer a
+{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    letter-spacing:1.4px;
+    font-size: medium;
+}
+.footer
+{
+    width:100%;
+    background-color: black;
+    /*margin-top: 10px;*/
+
+}
+
