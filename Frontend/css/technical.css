@@ -1,0 +1,54 @@
+body{
+    background: url("../images/formbackground.jpg");
+}
+.cardbox{
+    display:inline-block;
+    height:100%;
+
+}
+.card{
+    width: 300px;
+    left: 80px;
+    top: 50px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+/*.frosh_card{*/
+/*position: relative;*/
+/*display: inline-block;*/
+/*width:500px;*/
+/*height:500px;*/
+/*}*/
+.ccs_card{
+    position:relative;
+    display:inline-block;
+    width:500px;
+    height:500px;
+    left:400px;
+    top:-50px;
+    bottom:150px;
+}
+.MSC_card{
+    position: relative;
+    display: inline-block;
+    width:400px;
+    height:500px;
+    left:300px;
+    top:250px;
+    bottom:200px;
+}
+.iiche_card{
+    position: relative;
+    display: inline-block;
+    bottom:470px;
+    right:105px;
+}
+.owasp_card{
+    position:relative;
+    display:inline-block;
+    width:300px;
+    height:500px;
+    bottom:250px;
+}

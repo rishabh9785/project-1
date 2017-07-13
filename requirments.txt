@@ -1,0 +1,32 @@
+API for qr code generation:
+1.Scanova(We can use vcard/email)
+
+
+
+
+
+Database Name:
+cultural
+1.)Table Names
+  saturnalia
+  frosh
+  tmc
+  spicmacay
+  cineyouth
+
+2.)column names in each table:   1.)Id
+                                 2.)Name varchar
+                                 3.)Email varchar
+                                 4.)Contact Varchar
+Database Name:
+technical
+1.)Table Names
+   iete
+   ccs
+   owasp
+   iiche
+   msc
+2.)column names in each table:  1.)Id
+                                2.)Name varchar
+                                3.)Email varchar
+                                4.)Contact varchar
