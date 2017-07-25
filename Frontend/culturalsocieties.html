@@ -7,10 +7,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/fakeLoader.js"></script>
+    <link rel="stylesheet" href="css/fakeLoader.css">
     <link href="css/cultural.css" rel="stylesheet" type="text/css">
+    <script src="js/query2request.js"></script>
 
 </head>
 <body>
+<div id="fakeLoader"></div>
 <div class="cardbox">
     <div class="frosh_card">
 <div class="card">
@@ -23,7 +27,7 @@
     </div>
     <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-        <p><a href="form.html" target="_parent" id="frosh">City Tour</a></p>
+        <p><a  href="" id="frosh">City Tour</a></p>
     </div>
 </div>
 </div>
@@ -38,7 +42,7 @@
         </div>
         <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-            <p><a href="form.html" target="_parent" id="cineyouth">COMEDIAN NIGHT<br><h5>(BY SAHIL SHAH)</h5></a></p>
+            <p><a href="" target="_parent" id="cineyouth">COMEDIAN NIGHT<br><h5>(BY SAHIL SHAH)</h5></a></p>
         </div>
 </div>
     </div>
@@ -53,7 +57,7 @@
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                <p><a href="form.html" target="_parent" id="saturnalia">GUEST LECTURE</a></p>
+                <p><a href="" target="_parent" id="saturnalia">TEDx TECH TALK</a></p>
             </div>
         </div>
     </div>
@@ -68,7 +72,7 @@
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                <p><a href="form.html" target="_parent" id="spicmacay">SITAR EVE</a></p>
+                <p><a href="" target="_parent" id="spicmacay">SITAR EVE</a></p>
             </div>
         </div>
     </div>
@@ -83,11 +87,19 @@
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                <p><a href="form.html" target="_parent" id="tmc">Movie Showcase</a></p>
+                <p><a href="" target="_parent" id="tmc">Movie Showcase</a></p>
             </div>
         </div>
     </div>
 </div>
-<script src="js/query2request.js"></script>
+<script type="text/javascript">
+    $("#fakeLoader").fakeLoader({
+        timeToHide: 8000, //Time in milliseconds for fakeLoader disappear
+        zIndex: 999, // Default zIndex
+        spinner: "spinner6",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+        bgColor: "#e53935",
+        //imagePath:"preloader/preloader.gif"
+    })
+</script>
 </body>
 </html>

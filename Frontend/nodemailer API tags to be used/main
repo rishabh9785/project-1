@@ -1,0 +1,16 @@
+mailoptions={
+generateTextFromHTML:true;
+attachment:{
+filename:file+'.png'
+filepath:'./Project1_copy/Frontend/generated_qrcode'
+}
+forceEmbeddedImages:true
+html:'<body>Embedded image:<img src="'./Project1_copy/Frontend/generated_qrcode'></body>'
+
+'<body>' +'This is confirmation message for'+ string2 +'society event.Please make sure<br>' +
+' to bring this generated QRcode at the event'+'<br>Generated QR code<br>'
++'<img src="/media/rishabh/LENOVO/CODING_BLOCKS/Project1_copy/Frontend/generated_qrcode/'+file+'.png',">
++ '</body>'
+
+
++'<img src="cid:'+ cid_value +'" >'(latest)

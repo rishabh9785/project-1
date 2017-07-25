@@ -2,14 +2,20 @@
  * Created by rishabh on 13/7/17.
  */
 $(function(){
+
     $('#cultural').click(function(){
-        $.get('/database/query1?query1='+cultural,function(data){
+        var query1="cultural";
+        $.post('/query1',{query1:query1},function(data){
             console.log(data);
+            window.location='/culturalsocieties.html';
         })
     })
     $('#technical').click(function(){
-        $.get('/database/query1?query1='+technical,function(data){
+        var query1="technical";
+        $.post('/query1',{query1:query1},function(data){
             console.log(data);
+            window.location= '/techsocieties.html';
         })
     })
+
 })

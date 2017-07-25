@@ -7,10 +7,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/fakeLoader.js"></script>
+    <link rel="stylesheet" href="css/fakeLoader.css">
     <link href="css/technical.css" rel="stylesheet" type="text/css">
+    <script src="js/query2request.js"></script>
 </head>
 <body>
 <div>
+    <div id="fakeLoader"></div>
     <div class="cardbox">
         <div class="iete_card">
             <div class="card">
@@ -23,7 +27,7 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                    <p><a href="form.html" target="_parent" id="iete">Guest Lecture<br>(By IETE PRESIDENT)</by></a></p>
+                    <p><a href="" target="_parent" id="iete">Guest Lecture<br>(By IETE PRESIDENT)</by></a></p>
                 </div>
             </div>
         </div>
@@ -38,7 +42,7 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                    <p><a href="form.html" target="_parent" id="ccs">Hackathon</a></p>
+                    <p><a href="" target="_parent" id="ccs">Hackathon</a></p>
                 </div>
             </div>
         </div>
@@ -53,7 +57,7 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                    <p><a href="form.html" target="_parent" id="msc">Rumble 2k17</a></p>
+                    <p><a href="" target="_parent" id="msc">Rumble 2k17</a></p>
                 </div>
             </div>
         </div>
@@ -68,7 +72,7 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                    <p><a href="form.html" target="_parent" id="iiche">Guest Lecture</a></p>
+                    <p><a href="" target="_parent" id="iiche">Guest Lecture(Trends in Chemical Industry)</a></p>
                 </div>
             </div>
         </div>
@@ -83,13 +87,21 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">EVENTS<i class="material-icons right">close</i></span>
-                    <p><a href="form.html" target="_parent" id="owasp">Networking Guest Lecture</a></p>
+                    <p><a href="" target="_parent" id="owasp">Guest Lecture(Networking)</a></p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 </div>
-<script src="js/query2request.js"></script>
 </body>
+<script type="text/javascript">
+    $("#fakeLoader").fakeLoader({
+        timeToHide: 8000, //Time in milliseconds for fakeLoader disappear
+        zIndex: 999, // Default zIndex
+        spinner: "spinner6",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+        bgColor: "#e53935",
+        //imagePath:"preloader/preloader.gif"
+    })
+</script>
 </html>
